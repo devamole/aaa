@@ -3,7 +3,7 @@ name: Build and Deploy to ECS
 on:
   push:
     branches: [ "master" ]
-
+ 
 env:
   AWS_REGION: us-east-1                   # Ajusta según tu región
   ECR_REPOSITORY: credibanco-cards-service   # Nombre del repositorio en ECR
