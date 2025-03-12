@@ -28,13 +28,13 @@ jobs:
           MYSQL_DATABASE: cards
           MYSQL_USER: testuser
           MYSQL_PASSWORD: testpass
-          ports:
-            - 3306:3306
-          options: >-
-            --health-cmd="mysqladmin ping --host=localhost --user=testuser --password=testpass"
-            --health-interval=10s
-            --health-timeout=5s
-            --health-retries=5
+        ports:
+          - 3306:3306
+        options: >-
+          --health-cmd="mysqladmin ping --host=localhost --user=testuser --password=testpass"
+          --health-interval=10s
+          --health-timeout=5s
+          --health-retries=5
 
     steps:
     - uses: actions/checkout@v4
