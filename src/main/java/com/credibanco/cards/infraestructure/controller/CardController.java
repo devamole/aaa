@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.*;
 import jakarta.validation.Valid;
 
 @RestController
+@CrossOrigin(origins = "*")
 @RequestMapping("/api/cards")
 @Validated
 public class CardController {
