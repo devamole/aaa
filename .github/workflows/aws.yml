@@ -13,7 +13,7 @@ env:
   CONTAINER_NAME: credibanco-cards-service   # Nombre del contenedor en el task definition
 
 jobs:
-  build-deploy: 
+  build-deploy:
     runs-on: ubuntu-latest
     permissions:
       contents: read
