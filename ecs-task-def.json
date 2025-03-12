@@ -21,7 +21,7 @@
         "options": {
           "awslogs-group": "/ecs/credibanco-cards-service",
           "awslogs-region": "us-east-1",
-          "awslogs-stream-prefix": "ecs"                     
+          "awslogs-stream-prefix": "ecs"
         }
       }
     }
