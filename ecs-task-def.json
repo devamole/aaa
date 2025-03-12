@@ -1,7 +1,7 @@
 {
   "family": "Cards",
   "networkMode": "awsvpc",
-  "containerDefinitions": [ 
+  "containerDefinitions": [
     {
       "name": "credibanco-cards-service",
       "image": "${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/credibanco-cards-service:${IMAGE_TAG}",
