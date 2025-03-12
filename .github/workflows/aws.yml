@@ -2,7 +2,7 @@ name: Build and Deploy to ECS
 
 on:
   push:
-    branches: [ "master" ] 
+    branches: [ "master" ]
 
 env:
   AWS_REGION: us-east-1                   # Ajusta según tu región
@@ -13,7 +13,7 @@ env:
   CONTAINER_NAME: credibanco-cards-service   # Nombre del contenedor en el task definition
 
 jobs:
-  build-deploy:
+  build-deploy: 
     runs-on: ubuntu-latest
     permissions:
       contents: read
